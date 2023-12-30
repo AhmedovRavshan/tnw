@@ -1,0 +1,141 @@
+@import'font.css';
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'roboto';
+    font-weight: 400;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.header_nav{
+    padding: 20px;
+}
+.container{
+    display: flex;
+    width: 1110px;
+    margin: 0 auto;
+}
+.header_nav .container{
+    display: flex;
+    justify-content: space-between;
+}
+.header_intro-img{
+    margin: 15px 0 15px 0;
+}
+.header_nav-list{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    cursor: pointer;
+}
+.header_nav-link, .header_na-link{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #3A3838;
+}
+.header_nav-link:hover{
+    color: #EF4423;
+}
+.sec_item{
+    display: flex;
+}
+.item_text, .item_text1, 
+.item_text2, .item_text3{
+    width: 350px;
+    height: 380px;
+    background: #B71C1C;
+}
+.item_title{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding: 8px 15px 0px 15px;
+    margin: 0 0 8px 0;
+}
+.item_decr{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #EBEBEB;
+    padding: 0px 15px 15px 15px;
+}
+.item_text1{
+    background: #6A1B9A;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.item_text2{
+    background: #303F9F;
+}
+.item_text3{
+    background: #00695C;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.secdown_item{
+    background: #EDEDED;
+}
+.secdown_item .container{
+    gap: 30px;
+}
+.secdown{
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 50px 0;
+}
+.secdown_title{
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #3A3838;
+    padding: 40px 0 40px 0;
+}
+.secdown_item-img{
+    width: 555px;
+    height: 531px;
+}
+.secdown_item-title{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #3A3838;
+    padding: 20px 0 0 0;
+    margin: 0 0 30px 0;
+}
+.secdown_item-p{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #686868;
+    width: 540px;
+}
+.footer_main{
+    height: 128px;
+    background: #3A3838;
+    display: flex;
+    align-items: center;   
+}
+.footer_main .container{
+    display: flex;
+    justify-content: space-between; 
+}
+.header_na-link{
+    color: white;
+}
+.header_na-link:hover{
+    color: #EF4423;
+}
